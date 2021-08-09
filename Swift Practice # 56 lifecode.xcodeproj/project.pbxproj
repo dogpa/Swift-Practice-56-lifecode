@@ -13,6 +13,7 @@
 		5DA07E1226C126E800C2E2F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA07E1026C126E800C2E2F6 /* Main.storyboard */; };
 		5DA07E1426C126EB00C2E2F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA07E1326C126EB00C2E2F6 /* Assets.xcassets */; };
 		5DA07E1726C126EB00C2E2F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA07E1526C126EB00C2E2F6 /* LaunchScreen.storyboard */; };
+		5DA07E1F26C128FA00C2E2F6 /* showResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA07E1E26C128FA00C2E2F6 /* showResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5DA07E1326C126EB00C2E2F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA07E1626C126EB00C2E2F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA07E1826C126EB00C2E2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA07E1E26C128FA00C2E2F6 /* showResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				5DA07E0A26C126E800C2E2F6 /* AppDelegate.swift */,
 				5DA07E0C26C126E800C2E2F6 /* SceneDelegate.swift */,
-				5DA07E0E26C126E800C2E2F6 /* ViewController.swift */,
 				5DA07E1026C126E800C2E2F6 /* Main.storyboard */,
+				5DA07E0E26C126E800C2E2F6 /* ViewController.swift */,
+				5DA07E1E26C128FA00C2E2F6 /* showResultViewController.swift */,
 				5DA07E1326C126EB00C2E2F6 /* Assets.xcassets */,
 				5DA07E1526C126EB00C2E2F6 /* LaunchScreen.storyboard */,
 				5DA07E1826C126EB00C2E2F6 /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA07E1F26C128FA00C2E2F6 /* showResultViewController.swift in Sources */,
 				5DA07E0F26C126E800C2E2F6 /* ViewController.swift in Sources */,
 				5DA07E0B26C126E800C2E2F6 /* AppDelegate.swift in Sources */,
 				5DA07E0D26C126E800C2E2F6 /* SceneDelegate.swift in Sources */,
